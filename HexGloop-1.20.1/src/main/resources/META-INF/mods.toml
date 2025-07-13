@@ -1,0 +1,24 @@
+
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="hexgloop"
+version="1.20.1-1.0.0"
+displayName="HexGloop"
+description="Hex + Gloop = ❤️"
+
+[[dependencies.hexgloop]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.0.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.hexgloop]]
+    modId="hexcasting"
+    mandatory=true
+    versionRange="[1.20.1-0.11.1,)"
+    ordering="AFTER"
+    side="BOTH"
